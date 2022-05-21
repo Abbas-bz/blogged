@@ -3,7 +3,7 @@
 namespace BinaryTorch\Blogged\Filters;
 
 use Illuminate\Http\Request;
-use Illuminate\Database\Eloquent\Builder;
+use Jenssegers\Mongodb\Eloquent\Builder;
 
 abstract class Filters
 {
