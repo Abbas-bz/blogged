@@ -3,8 +3,8 @@
 namespace BinaryTorch\Blogged\Models;
 
 use Mews\Purifier\Facades\Purifier;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Builder;
+use Jenssegers\Mongodb\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Builder;
 use BinaryTorch\Blogged\Filters\Filterable;
 use BinaryTorch\Blogged\Traits\Authorizable;
 use BinaryTorch\Blogged\Contracts\BloggedUser;
